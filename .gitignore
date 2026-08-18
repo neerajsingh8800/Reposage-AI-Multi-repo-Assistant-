@@ -1,0 +1,33 @@
+# Python
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Environment / secrets
+.env
+**/.env
+
+# ChromaDB
+chroma_db/
+**/chroma_db/
+
+# React / Node
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
